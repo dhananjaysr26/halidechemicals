@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import "./Navbar.css";
 import { MdOutlineMenu } from "react-icons/md";
 import { AiOutlineCloseSquare } from "react-icons/ai";
+import {Link} from 'react-router-dom';
 
 function Navbar() {
     const [isMobile,setIsMobile]=useState(false);
@@ -20,12 +21,12 @@ function Navbar() {
     </div>
     <div className="menu-link">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Company</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About us</Link></li>
+            <li><Link to="/business">Business</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/careers">Careers</Link></li>
+            <li><Link to="/contact">Contact us</Link></li>
         </ul>
 
 

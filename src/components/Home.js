@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+
 import pic1 from "../assets/pic1.png";
 import g1 from "../assets/icons8-product-unscreen.gif";
 import g2 from "../assets/icons8-customer-insight.gif";
@@ -39,7 +40,7 @@ function Home() {
 
       <div className="block">
         <div className="info-block">
-          <span className="block-title">About us</span>
+          <span className="block-title">ABOUT US</span>
           <p>
             Aarti Industries Limited (AIL) is a leading Indian manufacturer of
             speciality chemicals and pharmaceuticals with a global footprint. We
@@ -113,7 +114,11 @@ function Home() {
         </div>
       </div>
       <div className="mission-block">
-          
+          <div className="mission-sub-block">
+            <h1>~Mission~</h1>
+            <p>At Aarti Industries, our purpose has been to create value and improve lives through sustainable and responsible chemistry — with a vision to emerge as a ‘Global Partner of Choice’ to leading consumers of specialty chemicals and intermediates.</p>
+          <button>Read More</button>
+          </div>
       </div>
     </div>
   );
