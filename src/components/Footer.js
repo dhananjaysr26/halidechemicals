@@ -13,7 +13,7 @@ function Footer() {
                 <li><a>Company</a></li>
                 <li><a>Business</a></li>
                 <li><a>Product</a></li>
-                <li><a>RD</a></li>
+                <li><a>R&amp;D</a></li>
             </ul>
           </div>
           <div className="foot-link">
@@ -37,11 +37,11 @@ function Footer() {
 <p>Plot No.44, MIDC Rd, Morivali, Ambernath, Maharashtra 421501</p>
           </div>
         </footer>
-        <section className="footer">
+        <div className="footer">
             <p> Ⓒ 2021 | Halide Chemicals pvt ltd</p>
-        </section>
+        </div>
         </>
     )
 }
 
-export default Footer
+export default Footer;
