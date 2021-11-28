@@ -117,7 +117,7 @@ function Home() {
           <div className="mission-sub-block">
             <h1>~Mission~</h1>
             <p>At Aarti Industries, our purpose has been to create value and improve lives through sustainable and responsible chemistry — with a vision to emerge as a ‘Global Partner of Choice’ to leading consumers of specialty chemicals and intermediates.</p>
-          <button>Read More</button>
+          <button className="btn">Read More</button>
           </div>
       </div>
     </div>

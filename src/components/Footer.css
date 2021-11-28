@@ -1,47 +1,54 @@
-.foot{
-    width: 100%;
-    height: 200px;
-    background-color: rgb(85, 84, 84);
-    color: white;
-    clip-path: polygon(0% 0%,100% 0%,100% 70%,0% 100%);
-    display: grid;
-    grid-template-columns:1fr 1fr 0.2fr 1.8fr;
-    padding: 20px;
+.foot {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(85, 84, 84);
+  color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 100%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.2fr 1.8fr;
+  padding: 20px;
 }
-.social{
-    font-size: 25px;
+.social li {
+  font-size: 25px;
+  list-style: none;
 }
-.foot-link{
-    font-size: 20px;
-    text-transform: uppercase;
+.foot-link {
+  font-size: 20px;
+  text-transform: uppercase;
 }
-.footer{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    background-color: rgb(161, 161, 161);
-    width: 100%;
-    height: 40px;
-padding: 10px;
+.footer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(161, 161, 161);
+  width: 100%;
+  height: 40px;
+  padding: 10px;
 }
-.footer p{
-    padding-bottom: 10px;
+.footer p {
+  padding-bottom: 10px;
 }
-.foot-link ul li{
-    margin-top: 5px;
-
+.foot-link ul li {
+  margin-top: 5px;
+  list-style: none;
+}
+.btn{
+    background-color: transparent;
+    border: 0.01;
+    padding: 2px;
+    cursor: pointer;
 }
 @media screen and (max-width: 1080px) {
-.foot{
+  .foot {
     display: block;
     height: 600px;
-}
-.foot-link{
+  }
+  .foot-link {
     padding: 5px;
-}
-.social ul{
+  }
+  .social ul {
     padding: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+  }
 }
