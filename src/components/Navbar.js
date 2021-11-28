@@ -10,7 +10,6 @@ function Navbar() {
     return (
         <>
 <nav className="main-nav">
-
     <div className="logo">
         <h2 >
             <span>H</span>alide
@@ -44,7 +43,7 @@ function Navbar() {
 <button className="mobile-menu-icon" onClick={()=>isMenu?setIsMenu(false):setIsMenu(true)}>
           {isMenu?(<AiOutlineCloseSquare/>):(<MdOutlineMenu/>)}
         </button>
-<ul>
+<ul  onClick={()=>setIsMenu(false)}>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About us</Link></li>
             <li><Link to="/business">Business</Link></li>
